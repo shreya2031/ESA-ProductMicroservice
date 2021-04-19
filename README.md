@@ -6,9 +6,12 @@ Put your connection string uri in the .env file.
 
 Clone the repository and follow the commands:
 
-> cd ESA-ProductMicroservice
-> npm install
-> npm start
+>cd ESA-ProductMicroservice
+
+>npm install
+
+>npm start
+
 Sever will start on port 5000
 # Usage
 Create a new user by sending a POST request to http://localhost:5000/rest/v1/users JSON format:
