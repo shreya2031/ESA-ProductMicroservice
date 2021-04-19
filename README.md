@@ -1,5 +1,5 @@
 # ESA Assignment-2.1 ProductMicroservice
-# Starting the service
+## Starting the service
 MongoDB Atlas connection has been used for database.
 
 Put your connection string uri in the .env file.
@@ -13,8 +13,8 @@ Clone the repository and follow the commands:
         >npm start
 
 Sever will start on port 5000
-# Usage
-Create a new user by sending a POST request to          localhost:5000/rest/v1/users JSON format:
+## Usage
+Create a new user by sending a POST request to [localhost:5000/rest/v1/users] JSON format:
 
         {
             "username": "test_user1",
@@ -29,7 +29,7 @@ You will get a response like this:
         	"__v": 0
         }
         
-Get the list of existing users by sending a GET request to      localhost:5000/rest/v1/users
+Get the list of existing users by sending a GET request to [localhost:5000/rest/v1/users]
 
 You will get a response like this:
 
@@ -42,13 +42,13 @@ You will get a response like this:
             }
         ]
 
-View an existing user by sending a GET request to localhost:5000/rest/v1/users/{your_username}
+View an existing user by sending a GET request to [localhost:5000/rest/v1/users/{your_username}]
 
-Update information of an existing user by sending a PUT request to localhost:5000/rest/v1/users/{your_username} 
+Update information of an existing user by sending a PUT request to [localhost:5000/rest/v1/users/{your_username}]
 
-Delete an existing user by sending a DELETE request to localhost:5000/rest/v1/users/{your_username}
+Delete an existing user by sending a DELETE request to [localhost:5000/rest/v1/users/{your_username}]
 
-To add a product to the list, send a POST request to localhost:5000/rest/v1/products JSON format:
+To add a product to the list, send a POST request to [localhost:5000/rest/v1/products] JSON format:
 
      {
           "productId": "123245ds4234",
@@ -72,7 +72,7 @@ To add a product to the list, send a POST request to localhost:5000/rest/v1/prod
           "__v": 0
         }
  
- Get the list of products available by sending a GET request to localhost:5000/rest/v1/products
+ Get the list of products available by sending a GET request to [localhost:5000/rest/v1/products]
  
  You will get a response like this:
  
@@ -101,10 +101,10 @@ To add a product to the list, send a POST request to localhost:5000/rest/v1/prod
 
         ]
    
-View an existing product by sending a GET request to localhost:5000/rest/v1/products/{your_productId}
+View an existing product by sending a GET request to [localhost:5000/rest/v1/products/{your_productId}]
 
-Update information of an existing product by sending a PUT request to localhost:5000/rest/v1/products/{your_productId}
+Update information of an existing product by sending a PUT request to [localhost:5000/rest/v1/products/{your_productId}]
 
-Delete an existing product by sending a DELETE request to localhost:5000/rest/v1/products/{your_productId}
+Delete an existing product by sending a DELETE request to [localhost:5000/rest/v1/products/{your_productId}]
 
 
