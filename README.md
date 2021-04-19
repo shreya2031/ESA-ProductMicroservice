@@ -1,4 +1,4 @@
-# ESA-ProductMicroservice
+# ESA Assignment-2.1 ProductMicroservice
 # Starting the service
 MongoDB Atlas connection has been used for database.
 
