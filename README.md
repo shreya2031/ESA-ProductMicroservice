@@ -14,7 +14,7 @@ Clone the repository and follow the commands:
 
 Sever will start on port 5000
 ## Usage
-Create a new user by sending a POST request to [localhost:5000/rest/v1/users] JSON format:
+Create a new user by sending a POST request to __localhost:5000/rest/v1/users__ JSON format:
 
         {
             "username": "test_user1",
