@@ -4,7 +4,7 @@ var express = require('express'),
   mongoose = require('mongoose'),
 
   User = require('./models/userModel'), 
-  ProductItem = require('./models/ProductModel'),
+  Product = require('./models/ProductModel'),
   bodyParser = require('body-parser');
   require("dotenv").config();
 
