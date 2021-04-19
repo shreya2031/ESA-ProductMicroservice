@@ -1,8 +1,11 @@
 # ESA-ProductMicroservice
 # Starting the service
 MongoDB Atlas connection has been used for database.
+
 Put your connection string uri in the .env file.
+
 Clone the repository and follow the commands:
+
 > cd ESA-ProductMicroservice
 > npm install
 > npm start
