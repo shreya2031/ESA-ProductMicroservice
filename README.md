@@ -14,7 +14,7 @@ Clone the repository and follow the commands:
 
 Sever will start on port 5000
 # Usage
-Create a new user by sending a POST request to localhost:5000/rest/v1/users JSON format:
+Create a new user by sending a POST request to          localhost:5000/rest/v1/users JSON format:
 
         {
             "username": "test_user1",
@@ -29,7 +29,7 @@ You will get a response like this:
         	"__v": 0
         }
         
-Get the list of existing users by sending a GET request to localhost:5000/rest/v1/users
+Get the list of existing users by sending a GET request to      localhost:5000/rest/v1/users
 
 You will get a response like this:
 
